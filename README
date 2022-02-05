@@ -1,5 +1,5 @@
-# 323CB Maria-Alexandra Druga
-# maria.druga@stud.acs.upb.ro
+# 322CA Chelcea Claudiu-Marian
+# claudiu.chelcea@stud.acs.upb.ro
 
 
 The project is designed to simulate a pokemon battle respecting OOP principles,
@@ -48,3 +48,5 @@ between the pokemons. Their stats are displayed, and, in turns, they are
 attacking each other with random attacks, dodging, stunning each other
 (based on their abilities), until one of the pokemons or both of them die.
 (reach HP <= 0)
+
+- The functionality of the functions are tested using the JUNIT framework.
