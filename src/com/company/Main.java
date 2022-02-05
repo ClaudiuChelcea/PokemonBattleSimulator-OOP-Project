@@ -14,19 +14,32 @@ import com.company.Input.InputManager;
 import com.company.Pokemon.Pokemon;
 import com.company.Pokemon.PokemonDatabase;
 import com.company.Trainer.TrainerDatabase;
+import jdk.swing.interop.SwingInterOpUtils;
 import org.json.simple.parser.ParseException;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
-    private static final String IN_FILE = "src/JsonFiles/test1.json";
-
     public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
+        /* Get test file */
+        String default_path = "src/JsonFiles/Test";
+        final String extension = ".json";
+        Integer test_number = 0;
+        while(test_number > 10 || test_number <= 0) {
+            System.out.printf("Test number from 1 to 10: ");
+            try {
+                test_number = new Scanner(System.in).nextInt();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        default_path = default_path + test_number + extension;
 
-        /* Read input */
+        /* Read input from test file */
         try {
-            InputManager.readData(IN_FILE);
+            InputManager.readData(default_path);
         } catch (Exception e) {
             System.out.println(e.getCause() + " " + e.getMessage());
         }

@@ -1,46 +1,43 @@
 {
   "Trainers": [
     {
-      "name": "Peter",
-      "age": 25
+      "name": "Lara",
+      "age": 41
     },
     {
-      "name": "Paul",
-      "age": 29
+      "name": "Lily",
+      "age": 39
     }
   ],
   "Pokemons": [
     {
-      "name": "Pikachu",
-      "HP": 35,
-      "Normal Attack": null,
-      "Special Attack": 4,
-      "Def": 2,
-      "Special Def": 3,
+      "name": "Meowth",
+      "HP": 41,
+      "Normal Attack": 3,
+      "Special Attack": null,
+      "Def": 4,
+      "Special Def": 2,
       "Ability 1": {
-        "Dmg": 6,
+        "Dmg": 5,
         "Stun": "No",
-        "Dodge": "No",
+        "Dodge": "Yes",
         "Cd": 4
       },
       "Ability 2": {
-        "Dmg": 4,
-        "Stun": "Yes",
+        "Dmg": 1,
+        "Stun": "No",
         "Dodge": "Yes",
-        "Cd": 6
+        "Cd": 3
       },
       "Items": [
         {
-          "name": "Scut",
+          "name": "Brad de Crăciun",
           "attack": {
-            "normalAttack": null,
+            "normalAttack": 3,
             "specialAttack": null
           },
           "hitPoints": 0,
-          "defense": {
-            "normalDefense": 2,
-            "specialDefense": 2
-          }
+          "defense": null
         },
         {
           "name": "Vestă",
@@ -50,36 +47,27 @@
             "specialAttack": null
           },
           "defense": null
-        },
-        {
-          "name": "Pelerină",
-          "defense": {
-            "normalDefense": null,
-            "specialDefense": 3
-          },
-          "hitPoints": 0,
-          "attack": null
         }
       ]
     },
     {
-      "name": "Meowth",
-      "HP": 41,
-      "Normal Attack": 3,
-      "Special Attack": null,
+      "name": "Bulbasaur",
+      "HP": 42,
+      "Normal Attack": null,
+      "Special Attack": 5,
       "Def": 3,
-      "Special Def": 3,
+      "Special Def": 1,
       "Ability 1": {
-        "Dmg": 2,
+        "Dmg": 6,
         "Stun": "No",
         "Dodge": "No",
         "Cd": 4
       },
       "Ability 2": {
-        "Dmg": 2,
-        "Stun": "Yes",
+        "Dmg": 5,
+        "Stun": "No",
         "Dodge": "No",
-        "Cd": 5
+        "Cd": 3
       },
       "Items": [
         {
@@ -92,13 +80,14 @@
           "defense": null
         },
         {
-          "name": "Săbiuță",
+          "name": "Scut",
           "hitPoints": 0,
-          "attack": {
-            "normalAttack": 3,
-            "specialAttack": null
-          },
-          "defense": null
+          "attack": null,
+          "defense": {
+            "normalDefense": 2,
+            "specialDefense": 2
+          }
+
         }
       ]
     },
@@ -123,19 +112,10 @@
       },
       "Items": [
         {
-          "name": "Scut",
-          "hitPoints": 0,
-          "attack": null,
-          "defense": {
-            "normalDefense": 2,
-            "specialDefense": 2
-          }
-        },
-        {
-          "name": "Baghetă Magică",
+          "name": "Săbiuță",
           "attack": {
-            "normalAttack": null,
-            "specialAttack": 3
+            "normalAttack": 3,
+            "specialAttack": null
           },
           "hitPoints": 0,
           "defense": null
@@ -143,23 +123,23 @@
       ]
     },
     {
-      "name": "Psyduck",
-      "HP": 43,
-      "Normal Attack": 3,
+      "name": "Vulpix",
+      "HP": 36,
+      "Normal Attack": 5,
       "Special Attack": null,
-      "Def": 3,
-      "Special Def": 3,
+      "Def": 2,
+      "Special Def": 4,
       "Ability 1": {
-        "Dmg": 2,
-        "Stun": "No",
+        "Dmg": 8,
+        "Stun": "Yes",
         "Dodge": "No",
-        "Cd": 4
+        "Cd": 6
       },
       "Ability 2": {
         "Dmg": 2,
-        "Stun": "Yes",
-        "Dodge": "No",
-        "Cd": 5
+        "Stun": "No",
+        "Dodge": "Yes",
+        "Cd": 7
       },
       "Items": [
         {
@@ -200,15 +180,6 @@
       },
       "Items": [
         {
-          "name": "Scut",
-          "hitPoints": 0,
-          "attack": null,
-          "defense": {
-            "normalDefense": 2,
-            "specialDefense": 2
-          }
-        },
-        {
           "name": "Pelerină",
           "defense": {
             "normalDefense": null,
@@ -239,15 +210,6 @@
         "Cd": 4
       },
       "Items" : [
-        {
-          "name": "Scut",
-          "hitPoints": 0,
-          "attack": null,
-          "defense": {
-            "normalDefense": 2,
-            "specialDefense": 2
-          }
-        },
         {
           "name": "Pelerină",
           "defense": {
