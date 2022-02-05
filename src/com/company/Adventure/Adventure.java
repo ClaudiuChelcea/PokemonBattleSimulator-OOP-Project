@@ -39,4 +39,8 @@ public class Adventure implements Observable {
             observer.update(adventureType, my_state, my_history_log);
         }
     }
+
+    public List<Observer> getObserverList() {
+        return this.observerList;
+    }
 }

@@ -50,8 +50,10 @@ public class Trainer {
     public String toString() {
         String trainer = "Trainer: " + this.name + " | Age: " + this.age + "\n";
         String pokemons = "";
-        for(var pokemon : this.my_pokemons) {
-            pokemons += pokemon.getName() + "\n";
+        if(my_pokemons != null) {
+            for (var pokemon : this.my_pokemons) {
+                pokemons += pokemon.getName() + "\n";
+            }
         }
         return trainer + pokemons;
     }

@@ -1,5 +1,6 @@
 package com.company.Adventure;
 
+import com.company.Helper.Helper;
 import com.company.Helper.Logger;
 import com.company.History.CareTaker;
 import com.company.History.FullDatabase;
@@ -63,6 +64,8 @@ public class Adventure_3_observer implements Observer {
         } else {
             pok1_trainer2.increaseAll();
         }
+        Helper.logCurrentStateToHistory(my_state, my_history_log);
+
 
         /* Battle 2 */
         prev_points = trainer1_points;
@@ -76,6 +79,8 @@ public class Adventure_3_observer implements Observer {
         } else {
             pok2_trainer2.increaseAll();
         }
+        Helper.logCurrentStateToHistory(my_state, my_history_log);
+
 
         /* Battle 3 */
         prev_points = trainer1_points;
@@ -89,6 +94,8 @@ public class Adventure_3_observer implements Observer {
         } else {
             pok2_trainer2.increaseAll();
         }
+        Helper.logCurrentStateToHistory(my_state, my_history_log);
+
 
         /* Battle 4 */
         prev_points = trainer1_points;
@@ -102,11 +109,14 @@ public class Adventure_3_observer implements Observer {
         } else {
             pok2_trainer2.increaseAll();
         }
+        Helper.logCurrentStateToHistory(my_state, my_history_log);
+
 
         if(trainer1_points > trainer2_points) {
             System.out.println("Winner trainer " + trainer1.getName() + "!");
         } else {
             System.out.println("Winner trainer " + trainer2.getName() + "!");
         }
+
     }
 }

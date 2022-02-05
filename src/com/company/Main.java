@@ -9,14 +9,9 @@ import com.company.Helper.Helper;
 import com.company.Helper.Logger;
 import com.company.History.CareTaker;
 import com.company.History.FullDatabase;
-import com.company.History.MomentoState;
 import com.company.Input.InputManager;
-import com.company.Pokemon.Pokemon;
-import com.company.Pokemon.PokemonDatabase;
 import com.company.Trainer.TrainerDatabase;
-import jdk.swing.interop.SwingInterOpUtils;
 import org.json.simple.parser.ParseException;
-
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;

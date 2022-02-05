@@ -1,4 +1,6 @@
 # 323CB Maria-Alexandra Druga
 # maria.druga@stud.acs.upb.ro
 
-
+The project is designed to simulate a pokemon battle respecting OOP principles,
+using 5 design patterns, multithreading, creating variated tests and using the
+JUNIT framework.

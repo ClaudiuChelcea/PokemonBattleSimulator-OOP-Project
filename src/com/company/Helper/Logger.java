@@ -3,6 +3,7 @@ package com.company.Helper;
 import com.company.Adventure.Adventure_3_observer;
 import com.company.History.CareTaker;
 import com.company.History.FullDatabase;
+import com.company.History.MomentoState;
 import com.company.Pokemon.Ability;
 import com.company.Pokemon.Pokemon;
 import com.company.Pokemon.PokemonDatabase;
@@ -374,6 +375,7 @@ public class Logger {
             }
 
             /* After each turn, log history */
+            my_state.setState(new MomentoState(TrainerDatabase.getInstance().getTrainerList(), PokemonDatabase.pokemonList, Helper.getAllItems()));
             Helper.logCurrentStateToHistory(my_state, my_history_log);
         }
 

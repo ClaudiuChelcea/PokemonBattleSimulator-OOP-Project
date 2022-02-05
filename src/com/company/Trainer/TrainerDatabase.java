@@ -31,4 +31,13 @@ public class TrainerDatabase {
     public List<Trainer> getTrainerList() {
         return this.TrainerList;
     }
+
+    public static void destroyMe() {
+        TrainerDatabase.instance = null;
+    }
+
+    public void destroyDatabase() {
+        var my_list  = getTrainerList();
+        my_list = null;
+    }
 }
