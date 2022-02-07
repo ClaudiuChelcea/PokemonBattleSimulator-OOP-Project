@@ -1,7 +1,3 @@
-# 322CA Chelcea Claudiu-Marian
-# claudiu.chelcea@stud.acs.upb.ro
-
-
 The project is designed to simulate a pokemon battle respecting OOP principles,
 using 5 design patterns, multithreading, creating variated tests and using the
 JUNIT framework.
